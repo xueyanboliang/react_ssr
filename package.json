@@ -1,0 +1,34 @@
+{
+  "name": "react_ssr",
+  "version": "1.0.0",
+  "description": "ssr demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "bulid": "webpack"
+  },
+  "keywords": [
+    "ssr"
+  ],
+  "author": "peng.du",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "koa": "^2.5.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.1.1"
+  }
+}
